@@ -19,28 +19,28 @@ class User < ActiveRecord::Base
       'html' => 'Bon<br>Début',
       'class' => 'two',
       'image' =>  ActionController::Base.helpers.asset_path(
-        'http://osooq.fr/vendeurs/images/20_construction/r1.jpg')
+        'http://osooq.fr/ref/1.png')
     },
     {
       'count' => 10,
       'html' => 'Truman Handle<br>w/ Blade',
       'class' => 'three',
       'image' => ActionController::Base.helpers.asset_url(
-        'refer/truman@2x.png')
+        'http://osooq.fr/ref/2.png')
     },
     {
       'count' => 25,
       'html' => 'Winston<br>Shave Set',
       'class' => 'four',
       'image' => ActionController::Base.helpers.asset_path(
-        'refer/winston@2x.png')
+        'http://osooq.fr/ref/3.png')
     },
     {
       'count' => 50,
       'html' => 'One Year<br>Free Blades',
       'class' => 'five',
       'image' => ActionController::Base.helpers.asset_path(
-        'refer/blade-explain@2x.png')
+        'http://osooq.fr/ref/4.png')
     }
   ]
 
