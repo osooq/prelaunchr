@@ -19,7 +19,7 @@ class User < ActiveRecord::Base
       'html' => 'Bon<br>Début',
       'class' => 'two',
       'image' =>  ActionController::Base.helpers.asset_path(
-        'refer/cream-tooltip.png')
+        '/refer/mammoth.png')
     },
     {
       'count' => 10,
