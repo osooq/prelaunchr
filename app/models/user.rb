@@ -19,14 +19,14 @@ class User < ActiveRecord::Base
       'html' => 'Bon<br>Début',
       'class' => 'two',
       'image' =>  ActionController::Base.helpers.asset_path(
-        refer/cream-tooltip.png)
+        'refer/cream-tooltip.png')
     },
     {
       'count' => 10,
       'html' => 'Truman Handle<br>w/ Blade',
       'class' => 'three',
-      'image' => ActionController::Base.helpers.asset_path(
-        refer/truman@2x.png)
+      'image' => ActionController::Base.helpers.asset_url(
+        'refer/truman@2x.png')
     },
     {
       'count' => 25,
