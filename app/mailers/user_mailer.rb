@@ -1,10 +1,10 @@
 class UserMailer < ActionMailer::Base
-  default from: "Harry's <welcome@harrys.com>"
+  default from: "Osooq.fr <welcome@osooq.fr>"
 
   def signup_email(user)
     @user = user
-    @twitter_message = "#Shaving is evolving. Excited for @harrys to launch."
+    @twitter_message = "#Osooq arrive! Dit le a tes amis et gagne avec @osooq."
 
-    mail(:to => user.email, :subject => "Thanks for signing up!")
+    mail(:to => user.email, :subject => "Merci d'avoir rejoins osooq!")
   end
 end
