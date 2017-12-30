@@ -19,7 +19,7 @@ class User < ActiveRecord::Base
       'html' => 'Bon<br>Début',
       'class' => 'two',
       'image' =>  ActionController::Base.helpers.asset_path(
-        '/refer/mammoth.png')
+        'http://osooq.fr/vendeurs/images/20_construction/r1.jpg')
     },
     {
       'count' => 10,
