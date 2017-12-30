@@ -25,7 +25,7 @@ class User < ActiveRecord::Base
       'html' => 'Truman Handle<br>w/ Blade',
       'class' => 'three',
       'image' => ActionController::Base.helpers.asset_path(
-        'refer/truman@2x.png')
+        "refer/truman@2x.png")
     },
     {
       'count' => 25,
