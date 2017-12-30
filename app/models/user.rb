@@ -16,28 +16,28 @@ class User < ActiveRecord::Base
   REFERRAL_STEPS = [
     {
       'count' => 5,
-      'html' => 'Bon<br>Début',
+      'html' => 'Amis<br>Inscrits',
       'class' => 'two',
       'image' =>  ActionController::Base.helpers.asset_path(
         'http://osooq.fr/ref/1.png')
     },
     {
       'count' => 10,
-      'html' => 'Truman Handle<br>w/ Blade',
+      'html' => 'Amis<br>Inscrits',
       'class' => 'three',
       'image' => ActionController::Base.helpers.asset_url(
         'http://osooq.fr/ref/2.png')
     },
     {
       'count' => 25,
-      'html' => 'Winston<br>Shave Set',
+      'html' => 'Amis<br>Inscrits',
       'class' => 'four',
       'image' => ActionController::Base.helpers.asset_path(
         'http://osooq.fr/ref/3.png')
     },
     {
       'count' => 50,
-      'html' => 'One Year<br>Free Blades',
+      'html' => 'Amis<br>Inscrits',
       'class' => 'five',
       'image' => ActionController::Base.helpers.asset_path(
         'http://osooq.fr/ref/4.png')
