@@ -18,7 +18,7 @@ class User < ActiveRecord::Base
       'count' => 5,
       'html' => 'Bon<br>Début',
       'class' => 'two',
-      'image' =>  ActionController::Base.helpers.asset_path('refer/cream-tooltip.png')
+      'image' =>  ActionController::Base.helpers.asset_path('refer/cream-tooltip.jpg')
     },
     {
       'count' => 10,
